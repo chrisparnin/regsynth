@@ -8,7 +8,7 @@ Generates regex solution that will properly validate input and reject negative e
 Number matcher.
 
 ```bash
-node index.js check examples/numbers.tsv
+$ node index.js check examples/numbers.tsv
 0 /^$/
 5 /^\d+$/
 [Solved] Generated regex: /^\d+$/
@@ -17,7 +17,7 @@ node index.js check examples/numbers.tsv
 Phone number matcher.
 
 ```bash
-node index.js check examples/phone.tsv
+$ node index.js check examples/phone.tsv
 ...
 13 /^\d+[-]\d+[-]\d{3}$/
 11 /^\d+[-]\d+[-]\d{2}$/
